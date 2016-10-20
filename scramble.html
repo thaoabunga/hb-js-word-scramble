@@ -13,7 +13,7 @@
 
         var playing = true;
 
-        while (playing) {
+        do {
 
             // Grab a random word from the WORDS array
             var index = Math.floor(Math.random() * (WORDS.length)); //Math.floor(Math.random() * (max - min + 1)) + min;
@@ -41,7 +41,12 @@
 
             // What does confirm() return?
             // What does setting the playing variable do?
-        };
+         } while (playing);
+
+        // do {
+    
+        // } while (___)
+
 
         alert("goodbye!");
     </script>
